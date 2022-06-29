@@ -1,0 +1,181 @@
+html,body{
+    margin: 0;
+    padding: 0;
+   
+}
+/*layout for the navbar*/
+
+nav.navbar.navbar-expand-lg{
+    background-color: #141B23;
+    font-size: 20px;
+
+}
+.background{
+    background-color: #141B23;
+    padding: 14px;
+}
+
+#button{
+    background-color: #141B23;
+    border: 4px solid #141B23 ;
+}
+
+#button:hover{
+    background-color: #FB8122;
+}
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  
+.nav-item a:hover {
+    color:#FB8122;
+    cursor: pointer;
+    transition: ease .5s;
+  }
+
+.home{
+    background-color: #1D2228;
+    color: white;
+}
+/*layput design od about me*/
+#profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+    
+}
+.intro-layout{
+    /*padding-top: 50px;*/
+    text-align:justify;
+   }
+   #Hi{
+      /* margin-top: 30px;*/
+       font-style: normal;
+       font-size: 4.4rem;
+   }
+   #Hi span{
+       color: #FB8122;
+   }
+   #Intro{
+       font-size:20px;
+       text-align:justify;
+       width:450px ;
+       /*padding-right: 120px;*/  
+   }
+   /*more about me next page*/
+   #Aboutme{
+       font-size: 40px;
+       text-align: center justify;
+   }
+/*layout design for the Check out me*/
+.checkoutme{
+    background-color: #141B23; 
+    border: 4px solid#1D2228; 
+    border-radius: 20px;
+    margin: 10px 40px;
+    padding: 30px 0px;
+    cursor: pointer;
+    box-shadow: 1px 9px #888888;
+}
+.checkoutme li {
+    display: inline;
+    color:#FB8122;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+
+  .checkoutme li:hover:not(.active) {
+    color: white;
+    background-color: #1D2228;
+    border: 4px solid #1D2228;
+    transition: ease .5s;
+  }
+  .checkoutme li.active{
+    color: white;
+    font-size: 30px;
+  }
+  .checkoutme li.resume{
+    color: #1D2228;
+    font-size: 30px;
+    background-color: #FB8122; 
+    border: 4px solid#FB8122; 
+    box-shadow: 1px 5px #141B23;
+    border-radius: 20px;
+    padding: 5px 30px;
+  }
+  .about{
+    font-size: 30px;
+    padding-top: 30px; 
+  }
+  .arrow{
+    color:#FB8122;
+    text-shadow: 1px 5px #141B23;
+  }
+  .arrow:hover{
+    color:#141B23;
+    transition: ease .5s;
+  }
+  /*layout for the Portfolio*/
+ .Portfolio_BG{
+  padding-top: 5px;
+  font-size: 30px;
+  margin: 10px 10px;
+  background-color: #1D2228;
+  color:#FB8122;
+ }
+ .Project_Details{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+ }
+ .Project_Details a{
+  text-align: center;
+  color:#FB8122;
+  text-decoration: none;
+  transition: ease .5s;
+  
+ }
+ .Project_Details span a:hover{
+  text-align: center;
+  color: #1e57b3  ;
+  transition: ease .5s;
+  border-bottom: 2px solid#1D2228;
+  cursor: pointer;
+ }
+ /*layout for the Certification*/
+ .color{
+  border: 3px solid #1D2228;
+  border-radius: 10px;
+
+ }
+
+ /*layout for the footer*/
+ .footer_BG{
+ text-decoration: none;
+ background-color: #1D2228;
+ color: #fff;
+ }
+ .footer_BG a{
+  text-decoration: none;
+  color: #FB8122;
+ }
+ .footer_BG a:hover{
+  text-decoration: none;
+  color: #Fff;
+ }
+ .footer_design{
+  color: #FB8122;
+  padding-left: 10px;
+ }
+ hr{
+  width: 100px;
+  color: #FB8122;
+ }
+ 
