@@ -7,12 +7,12 @@ html,body{
 
 nav.navbar.navbar-expand-lg{
     background-color: #141B23;
-    font-size: 20px;
-
+    font-size: 18px;
+    
 }
 .background{
     background-color: #141B23;
-    padding: 14px;
+    padding: 10px;
 }
 
 #button{
@@ -26,8 +26,7 @@ nav.navbar.navbar-expand-lg{
 .nav-item a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 10px 16px;
+    padding: 5px 16px;
     text-decoration: none;
   }
   
