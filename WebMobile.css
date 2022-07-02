@@ -1,9 +1,13 @@
 @media only screen and (max-width: 536px) {
        #Hi{
-        font-size: 3.3em;
+        font-size: 3.1em;
         text-align: center;
        }
        .mobile_size{
           text-align: center;
        }
+       div.introduction{
+         padding-bottom: 40px;
+       }
   }
+ 

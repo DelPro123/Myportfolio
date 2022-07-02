@@ -41,6 +41,9 @@ nav.navbar.navbar-expand-lg{
     color: white;
 }
 /*layput design od about me*/
+.introduction{
+  padding-top: 50px;
+}
 #profile{
     display: block;
     margin-left: auto;
