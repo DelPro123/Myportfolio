@@ -1,26 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Font Awesome 5 Icons</title>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-<!--Get your own code at fontawesome.com-->
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
 <body>
 
-<h1>fab fa-500px</h1>
+<h2>Responsive Image Gallery</h2>
 
-<i class='fab fa-500px'></i>
-<i class='fab fa-500px' style='font-size:24px'></i>
-<i class='fab fa-500px' style='font-size:36px'></i>
-<i class='fab fa-500px' style='font-size:48px;color:red'></i>
-<br>
+<h4>Resize the browser window to see the effect.</h4>
 
-<p>Used on a button:</p>
-<button style='font-size:24px'>Button <i class='fab fa-500px'></i></button>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
 
-<p>Unicode:</p>
-<i style='font-size:24px' class='fab'>&#xf26e;</i>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="img/IoT_Mobile.jpg" alt="Mountains" width="600" height="400">
+  </div>
+</div>
+
 
 </body>
 </html>
+
+
