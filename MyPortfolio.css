@@ -63,7 +63,7 @@ nav.navbar.navbar-expand-lg{
    #Intro{
        font-size:20px;
        text-align:justify;
-       width:450px ;
+       max-width: 500px;
        /*padding-right: 120px;*/  
    }
    /*more about me next page*/
