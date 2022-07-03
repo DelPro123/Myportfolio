@@ -1,13 +1,20 @@
 @media only screen and (max-width: 536px) {
        #Hi{
-        font-size: 3.1em;
+        font-size: 3.2em;
         text-align: center;
        }
        .mobile_size{
           text-align: center;
        }
-       div.introduction{
-         padding-bottom: 40px;
+      
+      .navbar-nav{
+         margin-top: 40px;
+         background-color: #141b23;
+         opacity: 0.7;
+      }
+      .checkoutme li.active{
+         font-size: 25px;
        }
+      
   }
  
